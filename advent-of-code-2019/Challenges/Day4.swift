@@ -29,8 +29,7 @@ class Day4 {
     func hasDuplicates(_ string: String) -> Bool {
         var set = Set<Character>()
         for c in string {
-            let (inserted, _) = set.insert(c)
-            if !inserted {
+            if !set.insert(c).inserted {
                 return true
             }
         }

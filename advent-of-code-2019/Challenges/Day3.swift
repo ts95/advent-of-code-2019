@@ -125,7 +125,7 @@ extension Day3: Challenge {
 
         var wireTipPoint1 = Point.zero
         var path1TotalSteps = 0
-        var path1VisitedPointSteps = [Point.zero : 0]
+        var path1VisitedPointSteps = [Point : Int]()
 
         for steps in path1 {
             for _ in (0..<steps.count) {

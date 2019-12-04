@@ -77,9 +77,9 @@
 		29E8509D2397FC650084CEA4 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				29E8509E2397FC650084CEA4 /* Day3.swift */,
 				29E8509F2397FC650084CEA4 /* Day1.swift */,
 				29E850A02397FC650084CEA4 /* Day2.swift */,
+				29E8509E2397FC650084CEA4 /* Day3.swift */,
 				29E850A12397FC650084CEA4 /* Day4.swift */,
 			);
 			path = Challenges;
